@@ -1,3 +1,10 @@
+.wrapper {
+    display: inline-block;
+    width: 250px;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+
 .section-title {
     margin-left: 20px;
     font-size: 20px;
@@ -50,4 +57,17 @@
     margin: 0px;
     font-size: 16px;
     color: #4a4a4a;
+}
+
+.remove {
+    padding: 12px 10px;
+    background: rgb(184, 0, 122);
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.remove:hover {
+    cursor: pointer;
 }
