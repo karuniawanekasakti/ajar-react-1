@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
-import Product from "../Product/Product";
+// import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
+import BlogPost from "../BlogPost/BlogPost";
+// import Product from "../Product/Product";
 
 class Home extends Component {
     render(){
@@ -11,9 +12,12 @@ class Home extends Component {
                 <YoutubeComponent time="2.12" title="Title 3" desc="desc 3"/>
                 <YoutubeComponent time="1.53" title="Title 4" desc="desc 4"/>
                 <YoutubeComponent/> */}
-                <p>Counter</p>
+                {/* <p>Counter</p>
                 <hr/>
-                <Product/>
+                <Product/> */}
+                <p>Blog Post</p>
+                <hr/>
+                <BlogPost/>
             </div>
             
         )
